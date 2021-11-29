@@ -11,7 +11,7 @@ export class CartService {
     constructor(
         private http: HttpClient
     ) { }
-
+    // TODO: Continue working on the Angular tutorial.
     getShippingPrices() {
         return this.http.get<{ type: string, price: number }[]>('/assets/shipping.json')
     }
