@@ -24,4 +24,10 @@ export const products = [
     price: 299,
     description: '',
   },
+  {
+    id: 3,
+    name: 'Phone Medium',
+    price: 399,
+    description: '',
+  },
 ];
